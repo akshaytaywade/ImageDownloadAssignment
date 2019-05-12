@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+ 
+<h1 >Download file from url</h1>
+ 
+<button ion-button ng-click="Download()">Download it!</button>
+   <!-- <span>Download progress : {{downloadProgress}} %</span> -->
+
+   <div class="progress-outer">
+    <div class="progress-inner" [style.width]="progress + '%'">
+      Download progress : {{downloadProgress}}%
+    </div>
+</div>
+
+
+<div>
+ {{hasil}}
+ <img ng-src="{{mywallpaper}}" width="100%" />
+  </div>
+</ion-content>
